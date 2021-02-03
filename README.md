@@ -21,7 +21,7 @@ pry(main)> restaurant = Restaurant.new('10:00', 'Fuel Cafe')
 #=> #<Restaurant:0x007fb9aac93b08 @dishes=[], @name="Fuel Cafe", @opening_time="10:00">
 
 pry(main)> restaurant.opening_time
-#=> "11:30"
+#=> "10:00"
 
 pry(main)> restaurant.name
 #=> "Fuel Cafe"
